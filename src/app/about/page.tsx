@@ -6,9 +6,8 @@ import { TbTruckDelivery } from "react-icons/tb";
 
 function About() {
   return (
-    <div>
+    <div className="bg-[#FFFFFF]">
       <Navbar></Navbar>
-      {/* About Section */}
       <div className="flex flex-col lg:flex-row gap-5 justify-center items-center p-5">
         <div className="lg:w-[672px] w-full mt-[50px] lg:mt-[200px] px-[20px] lg:px-[54px] py-[64px] bg-[#007580] text-[#F9F9F9]">
           <div className="lg:w-[495px] gap-3 mb-[20px]">
@@ -37,7 +36,6 @@ function About() {
         </div>
       </div>
 
-      {/* Brand Difference Section */}
       <div className="w-full mt-[50px] lg:mt-[150px] text-center">
         <h1 className="font-semibold text-[24px] lg:text-[32px] leading-[35.5px]">
           What makes our Brand Different
@@ -61,10 +59,10 @@ function About() {
           ))}
         </div>
       </div>
-
-      {/* Popular Products Section */}
       <div className="w-full mt-[50px] lg:mt-[150px] text-center">
-        <h1 className="font-semibold text-[24px] lg:text-[32px]">Our Popular Products</h1>
+        <h1 className="font-semibold text-[24px] lg:text-[32px]">
+          Our Popular Products
+        </h1>
         <div className="flex flex-wrap justify-center gap-4 mt-[30px] lg:mt-[100px] px-4">
           <div className="flex flex-col gap-4 w-full sm:w-[630px]">
             <Image
@@ -80,10 +78,7 @@ function About() {
             </div>
           </div>
           {[...Array(2)].map((_, i) => (
-            <div
-              key={i}
-              className="flex flex-col gap-4 w-full sm:w-[305px]"
-            >
+            <div key={i} className="flex flex-col gap-4 w-full sm:w-[305px]">
               <Image
                 src={`/Images/Large${i + 2}.png`}
                 alt="large image"

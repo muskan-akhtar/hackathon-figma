@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 
 const Cart = () => {
   return (
-    <div>
+    <div className="bg-[#FFFFFF]">
       <Navbar />
       <div className="max-w-[1321px] mx-auto px-4 py-8 mt-[180px]">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

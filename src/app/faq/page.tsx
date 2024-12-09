@@ -5,7 +5,7 @@ import { GoPlus } from "react-icons/go";
 
 function FAQ() {
   return (
-    <div>
+    <div className="bg-[#FFFFFF]">
       <Navbar />
       <div className="w-full flex justify-center px-4 sm:px-8">
         <div className="w-full max-w-[1320px] flex flex-col mt-[100px]">

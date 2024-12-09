@@ -5,7 +5,7 @@ import Image from "next/image";
 
 function Product1() {
   return (
-    <div>
+    <div className="bg-[#FFFFFF]">
       <Navbar></Navbar>
       <div className="md:flex grid grid-col gap-12 md:justify-center md: mt-[100px]">
         <Image

@@ -6,7 +6,7 @@ import { GoClockFill } from "react-icons/go";
 
 function Contact() {
   return (
-    <div>
+    <div className="bg-[#FFFFFF]">
       <Navbar />
       <div className="max-w-screen-xl mx-auto mt-24 px-4 sm:px-6">
         <h1 className="text-center text-4xl font-semibold sm:text-3xl">

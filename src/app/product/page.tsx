@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 
 function Product() {
   return (
-    <div>
+    <div className="bg-[#FFFFFF]">
       <Navbar />
       <div className="w-full flex flex-col justify-center items-center mt-[150px]">
         <h1 className="flex justify-start items-center mt-4 w-[205px] h-[35px] leading-[35.2px] text-[32px] font-semibold">
