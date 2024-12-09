@@ -56,25 +56,25 @@ function Navbar() {
 
       <div className="flex flex-wrap justify-between items-center py-4 px-4 sm:px-12 lg:px-24 bg-white shadow">
         <div className="flex flex-wrap gap-4 text-sm">
-          <Link href="/" className="font-medium hover:text-[#007580]">
+          <Link href="/" className="font-medium hover:text-[#007580] text-black">
             Home
           </Link>
-          <Link href="/shop" className="font-medium hover:text-[#007580]">
+          <Link href="/shop" className="font-medium hover:text-[#007580] text-black">
             Shop
           </Link>
-          <Link href="/product" className="font-medium hover:text-[#007580]">
+          <Link href="/product" className="font-medium hover:text-[#007580] text-black">
             Product
           </Link>
-          <Link href="/pages" className="font-medium hover:text-[#007580]">
+          <Link href="/pages" className="font-medium hover:text-[#007580] text-black">
             Pages
           </Link>
-          <Link href="/about" className="font-medium hover:text-[#007580]">
+          <Link href="/about" className="font-medium hover:text-[#007580] text-black">
             About
           </Link>
         </div>
         <Link href="/contact">
           <div className="flex gap-2 text-sm">
-            <span className="text-gray-500">Contact:</span>
+            <span className="text-gray-500 ">Contact:</span>
             <span className="text-[#272343]">(808) 555-0111</span>
           </div>
         </Link>
