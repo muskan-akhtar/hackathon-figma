@@ -9,7 +9,6 @@ function Features() {
         Featured Products
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-        {/* Product Card 1 */}
         <div className="w-full h-auto flex flex-col gap-3">
           <Image
             src="/Images/image1.png"
@@ -35,8 +34,6 @@ function Features() {
             </div>
           </div>
         </div>
-
-        {/* Product Card 2 */}
         <div className="w-full h-auto flex flex-col gap-3">
           <Link href="/product1">
             <Image
@@ -67,8 +64,6 @@ function Features() {
             </div>
           </div>
         </div>
-
-        {/* Product Card 3 */}
         <div className="w-full h-auto flex flex-col gap-3">
           <Image
             src="/Images/Image3.png"
@@ -94,8 +89,6 @@ function Features() {
             </div>
           </div>
         </div>
-
-        {/* Product Card 4 */}
         <div className="w-full h-auto flex flex-col gap-3">
           <Image
             src="/Images/Image4.png"

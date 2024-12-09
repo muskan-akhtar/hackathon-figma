@@ -10,7 +10,6 @@ function Footer() {
   return (
     <div className="w-full h-auto bg-[#FFFFFF] mt-[20px] p-4">
       <div className="flex flex-wrap gap-10 justify-center md:justify-between mt-[70px]">
-  
         <div className="flex flex-col w-full md:w-[350px] h-auto gap-6 items-center md:items-start">
           <div className="flex justify-center md:justify-start items-center gap-2">
             <Image
@@ -43,36 +42,42 @@ function Footer() {
             </div>
           </div>
         </div>
-
-        {/* Category Section */}
         <div className="w-full md:w-[105px] h-auto flex flex-col gap-5 mt-6 md:mt-0">
           <h1 className="text-[14px] font-medium text-[#9A9CAA] tracking-[6%]">
             CATEGORY
           </h1>
           <div className="flex flex-col gap-3">
-            {["Sofa", "Arm Chair", "Wing Chair", "Desk Chair", "Wooden Chair", "Park Bench"].map((category, index) => (
+            {[
+              "Sofa",
+              "Arm Chair",
+              "Wing Chair",
+              "Desk Chair",
+              "Wooden Chair",
+              "Park Bench",
+            ].map((category, index) => (
               <p key={index} className="text-[16px] text-[#272343]">
                 {category}
               </p>
             ))}
           </div>
         </div>
-
-        {/* Support Section */}
         <div className="w-full md:w-[156px] h-auto flex flex-col gap-5 mt-6 md:mt-0">
           <h1 className="text-[14px] font-medium text-[#9A9CAA] tracking-[6%]">
             SUPPORT
           </h1>
           <div className="flex flex-col gap-3">
-            {["Help & Support", "Terms & Conditions", "Privacy Policy", "Help"].map((item, index) => (
+            {[
+              "Help & Support",
+              "Terms & Conditions",
+              "Privacy Policy",
+              "Help",
+            ].map((item, index) => (
               <p key={index} className="text-[16px] text-[#272343]">
                 {item}
               </p>
             ))}
           </div>
         </div>
-
-        {/* Newsletter Section */}
         <div className="w-full md:w-[424px] h-auto mt-6 md:mt-0 rounded-lg flex flex-col gap-3 p-1">
           <h1 className="text-[#9A9CAA] text-[14px] font-medium tracking-[6%]">
             NEWSLETTER
@@ -94,8 +99,6 @@ function Footer() {
           </p>
         </div>
       </div>
-
-      {/* Footer Bottom Section */}
       <div className="w-full flex flex-col md:flex-row h-[75px] py-6 px-4 md:px-[300px] justify-between items-center">
         <p className="text-[14px] text-center md:text-left">
           @ 2021 - Blogy - Designed & Develop by <strong>Zakirsoft</strong>

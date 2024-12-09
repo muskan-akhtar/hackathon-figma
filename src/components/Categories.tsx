@@ -16,7 +16,6 @@ function Categories() {
             className="rounded-[10px]"
           />
 
-          {/* Text Overlay */}
           <div className="absolute bottom-0 w-full sm:w-[424px] h-[85px] p-5 rounded-br-[10px] rounded-bl-[10px] flex flex-col justify-between items-center gap-2 bg-[#000000] bg-opacity-[70%]">
             <h1 className="text-[#FFFFFF] text-[20px] leading-[22px] w-full sm:w-[384px] h-[22px]">
               Wing Chair
@@ -33,8 +32,6 @@ function Categories() {
             layout="fill"
             className="rounded-[10px]"
           />
-
-          {/* Text Overlay */}
           <div className="absolute bottom-0 w-full sm:w-[424px] h-[85px] p-5 rounded-br-[10px] rounded-bl-[10px] flex flex-col justify-between items-center gap-2 bg-[#000000] bg-opacity-[70%]">
             <h1 className="text-[#FFFFFF] text-[20px] leading-[22px] w-full sm:w-[384px] h-[22px]">
               Wooden Chair
@@ -51,8 +48,6 @@ function Categories() {
             layout="fill"
             className="rounded-[10px]"
           />
-
-          {/* Text Overlay */}
           <div className="absolute bottom-0 w-full sm:w-[424px] h-[85px] p-5 rounded-br-[10px] rounded-bl-[10px] flex flex-col justify-between items-center gap-2 bg-[#000000] bg-opacity-[70%]">
             <h1 className="text-[#FFFFFF] text-[20px] leading-[22px] w-full sm:w-[384px] h-[22px]">
               Desk Chair
