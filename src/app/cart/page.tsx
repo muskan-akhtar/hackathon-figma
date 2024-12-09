@@ -8,18 +8,17 @@ import Footer from "@/components/Footer";
 const Cart = () => {
   return (
     <div>
-      <Navbar></Navbar>
+      <Navbar />
       <div className="max-w-[1321px] mx-auto px-4 py-8 mt-[180px]">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2">
             <h2 className="text-[22px] font-medium pl-3 mb-6">Bag</h2>
-
-            <div className="flex items-center justify-between bg-white p-4 rounded-lg shadow-md mb-4">
+            <div className="flex flex-col sm:flex-row items-center justify-between bg-white p-4 rounded-lg shadow-md mb-4">
               <div className="flex items-center space-x-4">
                 <div className="w-24 h-24 bg-orange-200 rounded">
                   <Image
                     src="/Images/Image7.png"
-                    alt="."
+                    alt="Product"
                     width={150}
                     height={150}
                   />
@@ -31,7 +30,7 @@ const Cart = () => {
                   <p className="text-sm text-gray-500 mb-1">
                     Ashen Slate/Cobalt Bliss
                   </p>
-                  <div className="flex space-x-12">
+                  <div className="flex flex-wrap sm:flex-nowrap space-x-4 mb-3">
                     <p className="text-[15px] font-normal text-[#757575]">
                       Size: L
                     </p>
@@ -45,19 +44,17 @@ const Cart = () => {
                   </div>
                 </div>
               </div>
-              <div className=" flex gap-3">
-                <p className="text-[16px] font-normal text-[#111111]">MRP: </p>
-                <p className="text-[16px] font-normal text-[#111111] ">$99</p>
+              <div className="flex gap-3 mt-3 sm:mt-0">
+                <p className="text-[16px] font-normal text-[#111111]">MRP:</p>
+                <p className="text-[16px] font-normal text-[#111111]">$99</p>
               </div>
-              <div className="flex items-center space-x-2"></div>
             </div>
-
-            <div className="flex items-center justify-between bg-white p-4 rounded-lg shadow-md">
+            <div className="flex flex-col sm:flex-row items-center justify-between bg-white p-4 rounded-lg shadow-md">
               <div className="flex items-center space-x-4">
                 <div className="w-24 h-24 bg-gray-300 rounded">
                   <Image
                     src="/Images/Image3.png"
-                    alt="."
+                    alt="Product"
                     width={150}
                     height={150}
                   />
@@ -69,7 +66,7 @@ const Cart = () => {
                   <p className="text-[15px] font-normal text-[#757575] mb-1">
                     Ashen Slate/Cobalt Bliss
                   </p>
-                  <div className="flex space-x-12">
+                  <div className="flex flex-wrap sm:flex-nowrap space-x-4 mb-3">
                     <p className="text-[15px] font-normal text-[#757575]">
                       Size: L
                     </p>
@@ -83,38 +80,34 @@ const Cart = () => {
                   </div>
                 </div>
               </div>
-              <div className=" flex gap-3 ">
-                <p className="text-[16px] font-normal text-[#111111]">MRP: </p>
+              <div className="flex gap-3 mt-3 sm:mt-0">
+                <p className="text-[16px] font-normal text-[#111111]">MRP:</p>
                 <p className="text-[16px] font-normal text-[#111111]">$99</p>
               </div>
-              <div className="flex items-center space-x-2"></div>
             </div>
           </div>
-
-          <div>
+          <div className="bg-white p-6 rounded-lg shadow-md">
             <h2 className="text-2xl font-bold mb-6">Summary</h2>
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <div className="flex justify-between mb-4">
-                <p className="text-lg">Subtotal</p>
-                <p className="text-lg font-semibold">$198.00</p>
-              </div>
-              <div className="flex justify-between mb-4">
-                <p className="text-lg">Estimated Delivery & Handling</p>
-                <p className="text-lg font-semibold text-green-500">Free</p>
-              </div>
-              <hr className="mb-4" />
-              <div className="flex justify-between mb-6">
-                <p className="text-xl font-bold">Total</p>
-                <p className="text-xl font-bold">$198.00</p>
-              </div>
-              <button className="w-[334.67px] h-[60px] rounded-[30px] text-white bg-[#029FAE]">
-                Member Checkout
-              </button>
+            <div className="flex justify-between mb-4">
+              <p className="text-lg">Subtotal</p>
+              <p className="text-lg font-semibold">$198.00</p>
             </div>
+            <div className="flex justify-between mb-4">
+              <p className="text-lg">Estimated Delivery & Handling</p>
+              <p className="text-lg font-semibold text-green-500">Free</p>
+            </div>
+            <hr className="mb-4" />
+            <div className="flex justify-between mb-6">
+              <p className="text-xl font-bold">Total</p>
+              <p className="text-xl font-bold">$198.00</p>
+            </div>
+            <button className="w-full md:w-[334.67px] h-[60px] rounded-[30px] text-white bg-[#029FAE]">
+              Member Checkout
+            </button>
           </div>
         </div>
       </div>
-      <Footer></Footer>
+      <Footer />
     </div>
   );
 };

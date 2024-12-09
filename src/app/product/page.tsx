@@ -11,14 +11,7 @@ function Product() {
         <h1 className="flex justify-start items-center mt-4 w-[205px] h-[35px] leading-[35.2px] text-[32px] font-semibold">
           Our Products
         </h1>
-
-
-
-
-
-
-        
-        <div className="flex flex-col lg:flex gap-8 justify-center items-center">
+        <div className="md:flex grid grid-col gap-8 md:justify-center md:items-center">
           <div className="w-[312px] h-[377px] ml-636px mt-[84px] flex flex-col gap-3">
             <Image
               src="/Images/image1.png"
@@ -137,7 +130,7 @@ function Product() {
           </div>
         </div>
 
-        <div className="flex gap-8">
+        <div className="md:flex grid grid-col gap-8 md:justify-center md:items-center">
           <div className="w-[312px] h-[377px] ml-636px mt-[84px] flex flex-col gap-3">
             <Image
               src="/Images/Image6.png"
@@ -256,7 +249,7 @@ function Product() {
           </div>
         </div>
 
-        <div className="flex gap-8">
+        <div className="md:flex grid grid-col gap-8 md:justify-center md:items-center">
           <div className="w-[312px] h-[377px] ml-636px mt-[84px] flex flex-col gap-3">
             <Image
               src="/Images/Image5.png"
@@ -375,69 +368,69 @@ function Product() {
           </div>
         </div>
       </div>
-      <div className="w-[1924px] py-[100px] px-[300px] flex flex-col gap-[70px] mt-[300px]">
-        <div className="w-[760px] h-[165px] text-center flex flex-col justify-between items-center ml-[280px]">
-          <h1 className="font-medium text-[50px] leading-[58.59px] text-center">
+      <div className="w-full py-[100px] px-4 sm:px-6 md:px-12 lg:px-20 flex flex-col gap-[70px] mt-[100px]">
+        <div className="w-full md:w-[760px] h-[165px] text-center flex flex-col justify-between items-center mx-auto">
+          <h1 className="font-medium text-[30px] md:text-[50px] leading-[38px] md:leading-[58.59px] text-center">
             Or subscribe to the newsletter
           </h1>
-          <div className="flex gap-3">
+          <div className="flex flex-col sm:flex-row justify-center gap-3 mt-4">
             <input
               type="email"
               placeholder="Email Address..."
-              className="w-[643px] h-[32px] border-b-black border-b-[1px] border-solid"
+              className="w-full sm:w-[643px] h-[32px] border-b-black border-b-[1px] border-solid"
             />
-            <button className="border-b-black border-b-[1px] border-solid w-[91px] h-8 ">
+            <button className="border-b-black border-b-[1px] border-solid w-full sm:w-[91px] h-8 mt-2 sm:mt-0">
               Submit
             </button>
           </div>
         </div>
         <div className="flex flex-col justify-between items-center gap-12">
-          <h1 className="w-[1013px] text-[50px] leading-[58.59px] text-center ml-[80px] font-medium">
+          <h1 className="w-full md:w-[1013px] text-[30px] md:text-[50px] leading-[38px] md:leading-[58.59px] text-center font-medium">
             Follow products and discounts on Instagram
           </h1>
-          <div className="flex gap-6 ml-11">
+          <div className="flex flex-wrap justify-center gap-6 mt-4">
             <Image
               src="/Images/Image6.png"
               alt="Chair"
               width={186}
               height={186}
               className="rounded-md"
-            ></Image>
+            />
             <Image
               src="/Images/Image5.png"
               alt="Chair"
               width={186}
               height={186}
               className="rounded-md"
-            ></Image>
+            />
             <Image
               src="/Images/Image2.png"
               alt="Chair"
               width={186}
               height={186}
               className="rounded-md"
-            ></Image>
+            />
             <Image
               src="/Images/image1.png"
               alt="Chair"
               width={186}
               height={186}
               className="rounded-md"
-            ></Image>
+            />
             <Image
               src="/Images/Image3.png"
               alt="Chair"
               width={186}
               height={186}
               className="rounded-md"
-            ></Image>
+            />
             <Image
               src="/Images/Image7.png"
               alt="Chair"
               width={186}
               height={186}
               className="rounded-md"
-            ></Image>
+            />
           </div>
         </div>
       </div>
