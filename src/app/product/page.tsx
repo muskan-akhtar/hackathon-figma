@@ -7,11 +7,18 @@ function Product() {
   return (
     <div>
       <Navbar />
-      <div className="w-full flex flex-col justify-center items-center mt-[250px]">
-        <h1 className="flex  justify-start items-center mt-4 w-[205px] h-[35px] leading-[35.2px] text-[32px] font-semibold">
+      <div className="w-full flex flex-col justify-center items-center mt-[150px]">
+        <h1 className="flex justify-start items-center mt-4 w-[205px] h-[35px] leading-[35.2px] text-[32px] font-semibold">
           Our Products
         </h1>
-        <div className="flex gap-8 justify-center items-center">
+
+
+
+
+
+
+        
+        <div className="flex flex-col lg:flex gap-8 justify-center items-center">
           <div className="w-[312px] h-[377px] ml-636px mt-[84px] flex flex-col gap-3">
             <Image
               src="/Images/image1.png"

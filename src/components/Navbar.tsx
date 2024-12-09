@@ -6,7 +6,6 @@ import Link from "next/link";
 function Navbar() {
   return (
     <div className="w-full">
-      {/* Top Bar */}
       <div className="flex flex-wrap justify-between items-center py-2 px-4 sm:px-12 lg:px-24 bg-[#272343]">
         <div className="flex gap-2 items-center opacity-70 text-white text-sm">
           <Image
@@ -36,7 +35,6 @@ function Navbar() {
         </div>
       </div>
 
-      {/* Logo and Cart */}
       <div className="flex justify-between items-center py-4 px-4 sm:px-12 lg:px-24 bg-[#F0F2F3]">
         <div className="flex items-center gap-2">
           <Image src="/Images/Logoicon.png" alt="logo" width={40} height={40} />
@@ -56,7 +54,6 @@ function Navbar() {
         </div>
       </div>
 
-      {/* Navbar Links */}
       <div className="flex flex-wrap justify-between items-center py-4 px-4 sm:px-12 lg:px-24 bg-white shadow">
         <div className="flex flex-wrap gap-4 text-sm">
           <Link href="/" className="font-medium hover:text-[#007580]">

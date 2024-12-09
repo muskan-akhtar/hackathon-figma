@@ -3,86 +3,39 @@ import Image from "next/image";
 
 function Hero() {
   return (
-    <div>
-      <div className="flex flex-col md:flex-row items-center justify-center md:w-[1321px] h-auto md:ml-[300px] p-4 md:p-0">
-        <div className="w-full md:w-[557px] h-auto md:h-[337px] rounded-sm mb-8 md:mb-0">
-          <h1 className="text-[14px] md:text-[16px] tracking-[12%] leading-[14px] text-[#272343] mb-2">
-            Welcome to chairy
-          </h1>
-          <h1 className="font-bold text-[32px] md:text-[60px] tracking-[12%] leading-[40px] md:leading-[66px] text-[#272343] mb-4">
+    <div className="container mx-auto px-5">
+      <div className="flex flex-wrap items-center justify-center lg:flex-nowrap w-full py-10">
+        <div className="ml-0 lg:ml-[200px] max-w-lg text-center lg:text-left mb-10 lg:mb-0">
+          <p className="text-sm tracking-wide text-[#272343] mb-2">Welcome to chairy</p>
+          <h1 className="text-4xl lg:text-6xl font-bold text-[#272343] leading-tight mb-5">
             Best Furniture Collection for your interior.
           </h1>
-          <button className="mt-8 flex justify-between items-center gap-5 bg-[#029FAE] w-full md:w-[171px] h-[52px] rounded-lg py-[14px] px-6">
-            <h1 className="text-[#FFFFFF] text-[16px] leading-[17.6px] text-center">
-              Shop Now
-            </h1>
-            <Image
-              src="/Images/Rightarrow.png"
-              alt="arrow"
-              width={24}
-              height={24}
-            ></Image>
+          <button className="mt-8 ml-[60px] lg:ml-0 flex justify-between items-center gap-5 bg-[#029FAE] w-[171px] h-[52px] rounded-lg py-[14px] px-6">
+            <span className="text-white text-[16px] leading-[17.6px]">Shop Now</span>
+            <Image src="/Images/Rightarrow.png" alt="Shop now arrow" width={24} height={24} />
           </button>
         </div>
         <Image
           src="/Images/product-image.png"
-          alt="chair"
+          alt="Chair product"
           width={434}
           height={584}
-          className="w-full md:w-[434px] h-auto md:h-[584px] mt-4 md:mt-0"
-        ></Image>
+          className="mx-auto ml-[40px] lg:ml-[300px]"
+        />
       </div>
 
-      <div className="flex flex-wrap justify-between items-center w-full md:w-[1321px] h-auto md:ml-[300px] p-4 md:p-0">
-        <Image
-          src="/Images/zapier.png"
-          alt="zapier logo"
-          width={85}
-          height={87}
-          className="mb-4 md:mb-0"
-        ></Image>
-        <Image
-          src="/Images/pipedrive.png"
-          alt="pipedrive logo"
-          width={107}
-          height={109}
-          className="mb-4 md:mb-0"
-        ></Image>
-        <Image
-          src="/Images/cibbank.png"
-          alt="cibbank logo"
-          width={135}
-          height={139}
-          className="mb-4 md:mb-0"
-        ></Image>
-        <Image
-          src="/Images/z-red.png"
-          alt="z-red logo"
-          width={63}
-          height={65}
-          className="mb-4 md:mb-0"
-        ></Image>
-        <Image
-          src="/Images/burnttoast.png"
-          alt="burnttoast logo"
-          width={98}
-          height={101}
-          className="mb-4 md:mb-0"
-        ></Image>
-        <Image
-          src="/Images/panda-doc.png"
-          alt="panda-doc logo"
-          width={113}
-          height={115}
-          className="mb-4 md:mb-0"
-        ></Image>
-        <Image
-          src="/Images/moz-logo.png"
-          alt="moz logo"
-          width={84}
-          height={87}
-          className="mb-4 md:mb-0"
-        ></Image>
+      <div className="flex flex-wrap items-center justify-around w-full py-5">
+        {[
+          { src: "/Images/zapier.png", alt: "Zapier logo", width: 85, height: 87 },
+          { src: "/Images/pipedrive.png", alt: "Pipedrive logo", width: 107, height: 109 },
+          { src: "/Images/cibbank.png", alt: "CIB Bank logo", width: 135, height: 139 },
+          { src: "/Images/z-red.png", alt: "Z-Red logo", width: 63, height: 65 },
+          { src: "/Images/burnttoast.png", alt: "Burnt Toast logo", width: 98, height: 101 },
+          { src: "/Images/panda-doc.png", alt: "Panda Doc logo", width: 113, height: 115 },
+          { src: "/Images/moz-logo.png", alt: "Moz logo", width: 84, height: 87},
+        ].map((logo, index) => (
+          <Image key={index} src={logo.src} alt={logo.alt} width={logo.width} height={logo.height} />
+        ))}
       </div>
     </div>
   );

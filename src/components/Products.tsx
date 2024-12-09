@@ -8,7 +8,7 @@ function Products() {
       <h1 className="flex justify-center items-center mt-4 w-full text-center text-[32px] font-semibold">
         Our Products
       </h1>
-      <div className="flex flex-wrap gap-8 justify-center items-center mt-4">
+      <div className="flex flex-wrap gap-8 justify-center items-center mt-4 ml-4 lg:ml-0">
         <div className="w-full sm:w-[312px] h-[377px] flex flex-col gap-3">
           <Image
             src="/Images/image1.png"
@@ -24,7 +24,7 @@ function Products() {
               </h1>
               <p className="text-[18px] leading-[19.8px]">$20</p>
             </div>
-            <div className="bg-[#F0F2F3] rounded-lg w-12 h-12 flex justify-center items-center hover:bg-[#029FAE]">
+            <div className="bg-[#F0F2F3] rounded-lg w-12 ml-[150px] mt-8 lg:mt-0 lg:ml-[120px] h-12 flex justify-center items-center hover:bg-[#029FAE]">
               <Image
                 src="/Images/cart.png"
                 alt="cart"
@@ -57,7 +57,7 @@ function Products() {
                 </s>
               </div>
             </div>
-            <div className="bg-[#F0F2F3] rounded-lg w-12 h-12 flex justify-center items-center hover:bg-[#029FAE]">
+            <div className="bg-[#F0F2F3] rounded-lg ml-[150px] mt-8 lg:mt-0 lg:ml-[120px] w-12 h-12 flex justify-center items-center hover:bg-[#029FAE]">
               <Image
                 src="/Images/cart.png"
                 alt="cart"
@@ -83,7 +83,7 @@ function Products() {
               </h1>
               <p className="text-[18px] leading-[19.8px]">$20</p>
             </div>
-            <div className="bg-[#F0F2F3] rounded-lg w-12 h-12 flex justify-center items-center hover:bg-[#029FAE]">
+            <div className="bg-[#F0F2F3] rounded-lg ml-[150px] mt-8 lg:mt-0 lg:ml-[120px] w-12 h-12 flex justify-center items-center hover:bg-[#029FAE]">
               <Image
                 src="/Images/cart.png"
                 alt="cart"
@@ -109,7 +109,7 @@ function Products() {
               </h1>
               <p className="text-[18px] leading-[19.8px]">$20</p>
             </div>
-            <div className="bg-[#F0F2F3] rounded-lg w-12 h-12 flex justify-center items-center hover:bg-[#029FAE]">
+            <div className="bg-[#F0F2F3] rounded-lg ml-[150px] mt-8 lg:mt-0 lg:ml-[120px] w-12 h-12 flex justify-center items-center hover:bg-[#029FAE]">
               <Image
                 src="/Images/cart.png"
                 alt="cart"
@@ -121,7 +121,7 @@ function Products() {
         </div>
       </div>
 
-      <div className="flex flex-wrap gap-8 justify-center mt-4">
+      <div className="flex flex-wrap gap-8 justify-center items-center mt-4 ml-4 lg:ml-0">
 
         <div className="w-full sm:w-[312px] h-[377px] flex flex-col gap-3">
           <Image
@@ -138,7 +138,7 @@ function Products() {
               </h1>
               <p className="text-[18px] leading-[19.8px]">$20</p>
             </div>
-            <div className="bg-[#F0F2F3] rounded-lg w-12 h-12 flex justify-center items-center hover:bg-[#029FAE]">
+            <div className="bg-[#F0F2F3] rounded-lg ml-[150px] mt-8 lg:mt-0 lg:ml-[120px] w-12 h-12 flex justify-center items-center hover:bg-[#029FAE]">
               <Image
                 src="/Images/cart.png"
                 alt="cart"
@@ -169,7 +169,7 @@ function Products() {
                 </s>
               </div>
             </div>
-            <div className="bg-[#F0F2F3] rounded-lg w-12 h-12 flex justify-center items-center hover:bg-[#029FAE]">
+            <div className="bg-[#F0F2F3] rounded-lg ml-[150px] mt-8 lg:mt-0 lg:ml-[120px] w-12 h-12 flex justify-center items-center hover:bg-[#029FAE]">
               <Image
                 src="/Images/cart.png"
                 alt="cart"
@@ -195,7 +195,7 @@ function Products() {
               </h1>
               <p className="text-[18px] leading-[19.8px]">$20</p>
             </div>
-            <div className="bg-[#F0F2F3] rounded-lg w-12 h-12 flex justify-center items-center hover:bg-[#029FAE]">
+            <div className="bg-[#F0F2F3] rounded-lg ml-[150px] mt-8 lg:mt-0 lg:ml-[120px] w-12 h-12 flex justify-center items-center hover:bg-[#029FAE]">
               <Image
                 src="/Images/cart.png"
                 alt="cart"
@@ -221,7 +221,7 @@ function Products() {
               </h1>
               <p className="text-[18px] leading-[19.8px]">$20</p>
             </div>
-            <div className="bg-[#F0F2F3] rounded-lg w-12 h-12 flex justify-center items-center hover:bg-[#029FAE]">
+            <div className="bg-[#F0F2F3] rounded-lg ml-[150px] mt-8 lg:mt-0 lg:ml-[120px] w-12 h-12 flex justify-center items-center hover:bg-[#029FAE]">
               <Image
                 src="/Images/cart.png"
                 alt="cart"
