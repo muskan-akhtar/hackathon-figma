@@ -11,10 +11,10 @@ function About() {
       <div className="flex flex-col lg:flex-row gap-5 justify-center items-center p-5">
         <div className="lg:w-[672px] w-full mt-[50px] lg:mt-[200px] px-[20px] lg:px-[54px] py-[64px] bg-[#007580] text-[#F9F9F9]">
           <div className="lg:w-[495px] gap-3 mb-[20px]">
-            <h1 className="text-[24px] lg:text-[32px] font-bold leading-[38.73px]">
+            <h1 className="text-[24px] lg:text-[32px] font-bold leading-[38.73px] text-black">
               About Us - Comforty
             </h1>
-            <p className="text-[14px] lg:text-[16px] ">
+            <p className="text-[14px] lg:text-[16px] text-black">
               At Comforty, we believe that the right chair can transform your
               space and elevate your comfort. Specializing in ergonomic design,
               premium materials, and modern aesthetics, we craft chairs that
@@ -37,7 +37,7 @@ function About() {
       </div>
 
       <div className="w-full mt-[50px] lg:mt-[150px] text-center">
-        <h1 className="font-semibold text-[24px] lg:text-[32px] leading-[35.5px]">
+        <h1 className="font-semibold text-[24px] lg:text-[32px] leading-[35.5px] text-black">
           What makes our Brand Different
         </h1>
       </div>
@@ -60,7 +60,7 @@ function About() {
         </div>
       </div>
       <div className="w-full mt-[50px] lg:mt-[150px] text-center">
-        <h1 className="font-semibold text-[24px] lg:text-[32px]">
+        <h1 className="font-semibold text-[24px] lg:text-[32px] text-black">
           Our Popular Products
         </h1>
         <div className="flex flex-wrap justify-center gap-4 mt-[30px] lg:mt-[100px] px-4">
@@ -73,8 +73,8 @@ function About() {
               className="w-full"
             />
             <div className="flex flex-col text-center">
-              <h1>The Poplar suede sofa</h1>
-              <p>$99.00</p>
+              <h1 className="text-black">The Poplar suede sofa</h1>
+              <p className="text-black">$99.00</p>
             </div>
           </div>
           {[...Array(2)].map((_, i) => (
@@ -87,8 +87,8 @@ function About() {
                 className="w-full"
               />
               <div className="flex flex-col text-center">
-                <h1>The Poplar suede sofa</h1>
-                <p>$99.00</p>
+                <h1 className="text-black">The Poplar suede sofa</h1>
+                <p className="text-black">$99.00</p>
               </div>
             </div>
           ))}

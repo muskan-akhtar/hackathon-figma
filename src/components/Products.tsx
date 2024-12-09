@@ -5,7 +5,7 @@ import Link from "next/link";
 function Products() {
   return (
     <div className="w-full h-auto flex flex-col justify-center items-center mt-[100px] sm:mt-[50px]">
-      <h1 className="flex justify-center items-center mt-4 w-full text-center text-[32px] font-semibold">
+      <h1 className="text-black flex justify-center items-center mt-4 w-full text-center text-[32px] font-semibold">
         Our Products
       </h1>
       <div className="flex flex-wrap gap-8 justify-center items-center mt-4 ml-4 lg:ml-0">
@@ -193,7 +193,7 @@ function Products() {
               <h1 className="text-[#007580] text-[16px] leading-[20.8px]">
                 Library Stool Chair
               </h1>
-              <p className="text-[18px] leading-[19.8px]">$20</p>
+              <p className="text-black text-[18px] leading-[19.8px]">$20</p>
             </div>
             <div className="bg-[#F0F2F3] rounded-lg ml-[150px] mt-8 lg:mt-0 lg:ml-[120px] w-12 h-12 flex justify-center items-center hover:bg-[#029FAE]">
               <Image
@@ -219,7 +219,7 @@ function Products() {
               <h1 className="text-[#007580] text-[16px] leading-[20.8px]">
                 Library Stool Chair
               </h1>
-              <p className="text-[18px] leading-[19.8px]">$20</p>
+              <p className="text-black text-[18px] leading-[19.8px]">$20</p>
             </div>
             <div className="bg-[#F0F2F3] rounded-lg ml-[150px] mt-8 lg:mt-0 lg:ml-[120px] w-12 h-12 flex justify-center items-center hover:bg-[#029FAE]">
               <Image

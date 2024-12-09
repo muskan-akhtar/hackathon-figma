@@ -4,7 +4,7 @@ import Image from "next/image";
 function Categories() {
   return (
     <div className="w-full max-w-[1920px] mt-[200px] flex flex-col gap-7">
-      <h1 className="ml-12 sm:ml-[300px] font-bold text-[32px] w-full sm:w-[237px] h-[35px] leading-[35.2px]">
+      <h1 className="text-black ml-12 sm:ml-[300px] font-bold text-[32px] w-full sm:w-[237px] h-[35px] leading-[35.2px]">
         Top categories
       </h1>
       <div className="flex flex-col sm:flex-row ml-0 sm:ml-[300px] gap-9">

@@ -8,7 +8,7 @@ function Product() {
     <div className="bg-[#FFFFFF]">
       <Navbar />
       <div className="w-full flex flex-col justify-center items-center mt-[150px]">
-        <h1 className="flex justify-start items-center mt-4 w-[205px] h-[35px] leading-[35.2px] text-[32px] font-semibold">
+        <h1 className="text-black flex justify-start items-center mt-4 w-[205px] h-[35px] leading-[35.2px] text-[32px] font-semibold">
           Our Products
         </h1>
         <div className="md:flex grid grid-col gap-8 md:justify-center md:items-center">
@@ -25,7 +25,7 @@ function Product() {
                 <h1 className="text-[#007580] w-[256px] h-[21px] text-[16px] leading-[20.8px]">
                   Library Stool Chair
                 </h1>
-                <p className="w-[35px] h-[20px] text-[18px] leading-[19.8px]">
+                <p className="text-black w-[35px] h-[20px] text-[18px] leading-[19.8px]">
                   $20
                 </p>
               </div>
@@ -54,7 +54,7 @@ function Product() {
                   Library Stool Chair
                 </h1>
                 <div className="flex gap-1 justify-start items-center">
-                  <p className="w-[35px] h-[20px] text-[18px] leading-[19.8px]">
+                  <p className="text-black w-[35px] h-[20px] text-[18px] leading-[19.8px]">
                     $20
                   </p>
                   <s className="leading-[15.4px] text-[14px] text-[#9A9CAA]">
@@ -86,7 +86,7 @@ function Product() {
                 <h1 className="text-[#007580] w-[256px] h-[21px] text-[16px] leading-[20.8px]">
                   Library Stool Chair
                 </h1>
-                <p className="w-[35px] h-[20px] text-[18px] leading-[19.8px]">
+                <p className="text-black w-[35px] h-[20px] text-[18px] leading-[19.8px]">
                   $20
                 </p>
               </div>
@@ -114,7 +114,7 @@ function Product() {
                 <h1 className="text-[#007580] w-[256px] h-[21px] text-[16px] leading-[20.8px]">
                   Library Stool Chair
                 </h1>
-                <p className="w-[35px] h-[20px] text-[18px] leading-[19.8px]">
+                <p className="text-black w-[35px] h-[20px] text-[18px] leading-[19.8px]">
                   $20
                 </p>
               </div>
@@ -144,7 +144,7 @@ function Product() {
                 <h1 className="text-[#007580] w-[256px] h-[21px] text-[16px] leading-[20.8px]">
                   Library Stool Chair
                 </h1>
-                <p className="w-[35px] h-[20px] text-[18px] leading-[19.8px]">
+                <p className="text-black w-[35px] h-[20px] text-[18px] leading-[19.8px]">
                   $20
                 </p>
               </div>
@@ -173,7 +173,7 @@ function Product() {
                   Library Stool Chair
                 </h1>
                 <div className="flex gap-1 justify-start items-center">
-                  <p className="w-[35px] h-[20px] text-[18px] leading-[19.8px]">
+                  <p className="text-black w-[35px] h-[20px] text-[18px] leading-[19.8px]">
                     $20
                   </p>
                   <s className="leading-[15.4px] text-[14px] text-[#9A9CAA]">
@@ -205,7 +205,7 @@ function Product() {
                 <h1 className="text-[#007580] w-[256px] h-[21px] text-[16px] leading-[20.8px]">
                   Library Stool Chair
                 </h1>
-                <p className="w-[35px] h-[20px] text-[18px] leading-[19.8px]">
+                <p className="text-black w-[35px] h-[20px] text-[18px] leading-[19.8px]">
                   $20
                 </p>
               </div>
@@ -233,7 +233,7 @@ function Product() {
                 <h1 className="text-[#007580] w-[256px] h-[21px] text-[16px] leading-[20.8px]">
                   Library Stool Chair
                 </h1>
-                <p className="w-[35px] h-[20px] text-[18px] leading-[19.8px]">
+                <p className="text-black w-[35px] h-[20px] text-[18px] leading-[19.8px]">
                   $20
                 </p>
               </div>
@@ -263,7 +263,7 @@ function Product() {
                 <h1 className="text-[#007580] w-[256px] h-[21px] text-[16px] leading-[20.8px]">
                   Library Stool Chair
                 </h1>
-                <p className="w-[35px] h-[20px] text-[18px] leading-[19.8px]">
+                <p className="text-black w-[35px] h-[20px] text-[18px] leading-[19.8px]">
                   $20
                 </p>
               </div>
@@ -292,7 +292,7 @@ function Product() {
                   Library Stool Chair
                 </h1>
                 <div className="flex gap-1 justify-start items-center">
-                  <p className="w-[35px] h-[20px] text-[18px] leading-[19.8px]">
+                  <p className="text-black w-[35px] h-[20px] text-[18px] leading-[19.8px]">
                     $20
                   </p>
                   <s className="leading-[15.4px] text-[14px] text-[#9A9CAA]">
@@ -324,7 +324,7 @@ function Product() {
                 <h1 className="text-[#007580] w-[256px] h-[21px] text-[16px] leading-[20.8px]">
                   Library Stool Chair
                 </h1>
-                <p className="w-[35px] h-[20px] text-[18px] leading-[19.8px]">
+                <p className="text-black w-[35px] h-[20px] text-[18px] leading-[19.8px]">
                   $20
                 </p>
               </div>
@@ -352,7 +352,7 @@ function Product() {
                 <h1 className="text-[#007580] w-[256px] h-[21px] text-[16px] leading-[20.8px]">
                   Library Stool Chair
                 </h1>
-                <p className="w-[35px] h-[20px] text-[18px] leading-[19.8px]">
+                <p className="text-black w-[35px] h-[20px] text-[18px] leading-[19.8px]">
                   $20
                 </p>
               </div>
@@ -370,7 +370,7 @@ function Product() {
       </div>
       <div className="w-full py-[100px] px-4 sm:px-6 md:px-12 lg:px-20 flex flex-col gap-[70px] mt-[100px]">
         <div className="w-full md:w-[760px] h-[165px] text-center flex flex-col justify-between items-center mx-auto">
-          <h1 className="font-medium text-[30px] md:text-[50px] leading-[38px] md:leading-[58.59px] text-center">
+          <h1 className="text-black font-medium text-[30px] md:text-[50px] leading-[38px] md:leading-[58.59px] text-center">
             Or subscribe to the newsletter
           </h1>
           <div className="flex flex-col sm:flex-row justify-center gap-3 mt-4">
@@ -385,7 +385,7 @@ function Product() {
           </div>
         </div>
         <div className="flex flex-col justify-between items-center gap-12">
-          <h1 className="w-full md:w-[1013px] text-[30px] md:text-[50px] leading-[38px] md:leading-[58.59px] text-center font-medium">
+          <h1 className="text-black w-full md:w-[1013px] text-[30px] md:text-[50px] leading-[38px] md:leading-[58.59px] text-center font-medium">
             Follow products and discounts on Instagram
           </h1>
           <div className="flex flex-wrap justify-center gap-6 mt-4">

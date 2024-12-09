@@ -15,7 +15,7 @@ function Navbar() {
             width={16}
             className="text-white"
           />
-          <h1>Free shipping on all orders over $50</h1>
+          <h1 className="text-black">Free shipping on all orders over $50</h1>
         </div>
         <div className="flex gap-4 items-center opacity-70 text-white text-sm">
           <div className="flex items-center gap-1">
@@ -38,7 +38,7 @@ function Navbar() {
       <div className="flex justify-between items-center py-4 px-4 sm:px-12 lg:px-24 bg-[#F0F2F3]">
         <div className="flex items-center gap-2">
           <Image src="/Images/Logoicon.png" alt="logo" width={40} height={40} />
-          <h1 className="text-lg sm:text-xl font-medium">Comforty</h1>
+          <h1 className="text-black text-lg sm:text-xl font-medium">Comforty</h1>
         </div>
         <div className="flex items-center gap-3 bg-white px-4 py-2 rounded-lg">
           <Link href="/cart" className="flex items-center gap-2">

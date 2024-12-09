@@ -18,7 +18,7 @@ function Footer() {
               width={40}
               height={40}
             />
-            <h1 className="text-[26px] font-medium">Comforty</h1>
+            <h1 className="text-black text-[26px] font-medium">Comforty</h1>
           </div>
           <p className="text-[16px] text-[#272343] opacity-[60%] w-full md:w-[350px] text-center lg:text-left">
             Vivamus tristique odio sit amet velit semper, eu posuere turpis

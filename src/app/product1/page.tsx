@@ -17,7 +17,7 @@ function Product1() {
         ></Image>
         <div className="flex flex-col gap-11">
           <div className="flex flex-col gap-8">
-            <h1 className="md:w-[541px] w-[300px] h-[200px] text-center md:text-left ml-9 md:ml-0 md:h-[132px] font-bold text-[60px] leading-[66px] p-2">
+            <h1 className="text-black md:w-[541px] w-[300px] h-[200px] text-center md:text-left ml-9 md:ml-0 md:h-[132px] font-bold text-[60px] leading-[66px] p-2">
               Library Stool Chair
             </h1>
             <p className="w-[144px] h-[44px] ml-[110px] md:ml-0 text-center bg-[#029FAE] rounded-[100px] font-semibold text-[#FFFFFF] flex justify-center items-center">
@@ -25,7 +25,7 @@ function Product1() {
             </p>
           </div>
           <div className="flex flex-col gap-8">
-            <p className="w-[350px] md:w-[543px] h:[90px] md:h-[101px] text-[22px] leading-[33px] text-opacity-[60%] text-center md:text-left">
+            <p className="text-black w-[350px] md:w-[543px] h:[90px] md:h-[101px] text-[22px] leading-[33px] text-opacity-[60%] text-center md:text-left">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
               tincidunt erat enim. Lorem ipsum dolor sit amet, consectetur
               adipiscing
@@ -44,7 +44,7 @@ function Product1() {
       </div>
 
       <div className="w-[1920px] flex flex-col mt-[150px]">
-        <h1 className="ml-12 md:ml-[300px] mt-1 w-[286px] h-[35px] leading-[35.2px] text-[32px] font-bold">
+        <h1 className="text-black ml-12 md:ml-[300px] mt-1 w-[286px] h-[35px] leading-[35.2px] text-[32px] font-bold">
           Featured Products
         </h1>
         <div className="md:flex grid grid-col ml-12 md:ml-[240px] md:justify-center">
@@ -61,7 +61,7 @@ function Product1() {
                 <h1 className="text-[#007580] w-[256px] h-[21px] text-[16px] leading-[20.8px]">
                   Library Stool Chair
                 </h1>
-                <p className="w-[35px] h-[20px] text-[18px] leading-[19.8px] font-bold">
+                <p className="text-black w-[35px] h-[20px] text-[18px] leading-[19.8px] font-bold">
                   $20
                 </p>
               </div>
@@ -81,7 +81,7 @@ function Product1() {
                 <h1 className="text-[#007580] w-[256px] h-[21px] text-[16px] leading-[20.8px]">
                   Library Stool Chair
                 </h1>
-                <p className="w-[35px] h-[20px] text-[18px] leading-[19.8px] font-bold">
+                <p className="text-black w-[35px] h-[20px] text-[18px] leading-[19.8px] font-bold">
                   $20
                 </p>
               </div>
@@ -101,7 +101,7 @@ function Product1() {
                 <h1 className="text-[#007580] w-[256px] h-[21px] text-[16px] leading-[20.8px]">
                   Library Stool Chair
                 </h1>
-                <p className="w-[35px] h-[20px] text-[18px] leading-[19.8px] font-bold">
+                <p className="text-black w-[35px] h-[20px] text-[18px] leading-[19.8px] font-bold">
                   $20
                 </p>
               </div>
@@ -121,7 +121,7 @@ function Product1() {
                 <h1 className="text-[#007580] w-[256px] h-[21px] text-[16px] leading-[20.8px]">
                   Library Stool Chair
                 </h1>
-                <p className="w-[35px] h-[20px] text-[18px] leading-[19.8px] font-bold">
+                <p className="text-black w-[35px] h-[20px] text-[18px] leading-[19.8px] font-bold">
                   $20
                 </p>
               </div>
@@ -141,7 +141,7 @@ function Product1() {
                 <h1 className="text-[#007580] w-[256px] h-[21px] text-[16px] leading-[20.8px]">
                   Library Stool Chair
                 </h1>
-                <p className="w-[35px] h-[20px] text-[18px] leading-[19.8px] font-bold">
+                <p className="text-black w-[35px] h-[20px] text-[18px] leading-[19.8px] font-bold">
                   $20
                 </p>
               </div>
